@@ -1,0 +1,409 @@
+/* 
+img.dots {
+    height: 50vh;
+    width: 20vw;
+    position: relative;
+    left: 0;
+    top: 6vh;
+    z-index: -1;
+}
+@media (max-width: 992px)
+{img.dots {
+    width: 34vw;
+    top: 0;
+}
+}
+@media (max-width: 992px)
+{img.dots {
+    width: 34vw;
+    top: 0;
+}}
+@media (max-width: 992px)
+{.about__content {
+    text-align: center;
+    top: -45vh;
+}}
+.about__content {
+    /* margin-top: 1vh;
+    align-items: center; 
+    margin-left: 22%;
+    width: 80vw;
+    position: relative;
+    top: -40vh;
+    display: flex;
+}
+#about {
+    background-repeat: no-repeat;
+  background-size:cover;
+    font-weight: 700;
+    font-size: 6vh;
+    font-style: italic;
+    padding: 3.5vh;
+    font-family: NeueMontreal-Italic;
+    color: white;
+}
+@media (max-width: 992px)
+{ #cont {
+    font-size: 6rem;
+}
+#cont, #logo {
+    font-size: 4.2vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    font-family: NeueMontreal-Regular;
+}
+.content__left{
+    align-items: center;
+    flex:0.6;
+    width:100%
+}
+}
+#cont, #logo {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    font-family: NeueMontreal-Regular;
+    color: white;
+}
+.MuiTypography-body1 {
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.5;
+}
+p {
+    margin: 0;
+    font-family: "Neue Montreal";
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+@media (max-width: 992px)
+{.content1 {
+    text-align: center;
+    top: -45vh;
+}}
+.content__left{
+    flex:0.6;
+    width:50%
+}
+@media (max-width: 1024px)
+{.event-sec-left, .event-sec-right {
+    align-items: center;
+    margin: 1rem 0;
+    text-align: center;
+    width: 100%;
+}}
+@media (max-width: 1024px)
+{.event-sec-right {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 100vh;
+}}
+.event-sec-right {
+    align-items: center;
+    position: relative;
+}
+.event-sec-left, .event-sec-left span, .event-sec-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.event-sec-left, .event-sec-right {
+    width: 50%;
+}
+@media (max-width: 1024px)
+{.central_img1, .central_img2, .central_img3 {
+    height: 50vw;
+    position: absolute;
+    width: 50vw;
+}}
+.central_img1, .central_img2, .central_img3 {
+    height: 30vw;
+    position: absolute;
+    width: 30vw;
+}
+@media (max-width: 1024px)
+{.central_img2 {
+    bottom: 0;
+    height: 30vw;
+    left: 5%;
+    width: 30vw;
+}}
+@media (max-width: 1024px)
+{.central_img1, .central_img2, .central_img3 {
+    height: 50vw;
+    position: absolute;
+    width: 50vw;
+}}
+.central_img2 {
+    bottom: 0;
+    height: 20vw;
+    left: 5%;
+    width: 20vw;
+}
+.central_img1, .central_img2, .central_img3 {
+    height: 30vw;
+    position: absolute;
+    width: 30vw;
+}
+@media (max-width: 1024px)
+{.central_img3 {
+    bottom: 0;
+    height: 40vw;
+    right: 5%;
+    width: 40vw;
+}}
+@media (max-width: 1024px)
+{.central_img1, .central_img2, .central_img3 {
+    height: 50vw;
+    position: absolute;
+    width: 50vw;
+}}
+.central_img3 {
+    bottom: 0;
+    height: 25vw;
+    right: 5%;
+    width: 25vw;
+}
+.central_img1, .central_img2, .central_img3 {
+    height: 30vw;
+    position: absolute;
+    width: 30vw;
+} */
+
+
+
+.About {
+    background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+    color:transparent; 
+    padding-top:50px;
+}
+
+.u-clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.section[type=whats-new] .section-title {
+    font-family: California,Times,Georgia,serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.05;
+    text-shadow: 0 0 42px #2f9d9c;
+    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
+    display: inline-block;
+    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
+    -webkit-background-clip: text;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: skewY(-11.5deg);
+    transform: skewY(-11.5deg);padding-top:50px;
+}
+
+.backgroundcliptext  section[type=whats-new] .section-subhead {
+    display: inline-block;
+    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 46.25em)
+{ section[type=whats-new] .section-title span {
+    margin-left: 130px;
+    font-size: 6.0625rem;
+}}
+
+#about-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2% 7%;
+    padding: 2%;
+    margin-bottom: 0;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+#about-section-div1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: white;
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+}
+
+#about-section-div1 p {
+    padding: 2%;
+    font-size: 1.1rem;
+}
+
+#about-section-btn {
+    display: block;
+    background: none;
+    color: #198afa;
+    font-size: 18px;
+    font-weight: 650;
+    border: 2px solid white;
+    margin-top: 15px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    cursor: pointer;
+    color: #fff;
+    background-image: linear-gradient(45deg, #198afa 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+}
+
+#about-section-btn:hover {
+    background-position: 0;
+    border: 2px solid #198afa;
+}
+
+#about-section-div2 {
+
+    display: flex;
+    align-items: center;
+    color: white;
+    /* border: 2px solid blue; */
+}
+
+#about-section-div2 img {
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+    #about-section {
+        margin: 2%;
+    }
+
+    #about-section-div1 p {
+        font-size: 0.98rem;
+        padding: 0px;
+    }
+
+    #about-section-div2 img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    #about-section {
+        margin: 10%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    #about-section-div2 img {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+#about-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4%;
+    margin: 2% 10%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 0% 5%;
+    height: 350px;
+
+    /* border: 2px solid red; */
+}
+
+#card {
+    position: relative;
+    margin: 5% 0%;
+    padding: 8%;
+    /* padding-right: 9%; */
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+#card h1{
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+#card p {
+    display: block;
+    margin-top: 30px;
+    width: 80%;
+    position: absolute;
+    top: 120px;
+    font-size: 0.8rem;
+}
+
+#card a {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#card-icon {
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+#card:hover {
+    background-color: #198afa;
+    border: none;
+}
+
+/* @media only screen and (max-width: 1200px) {
+    
+} */
+
+@media only screen and (max-width: 990px) {
+    #about-cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 700px
+    }
+    #card {
+        margin: auto;
+        height: 300px;  
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #about-cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        height: 1400px;
+    }
+    #card {
+        padding: 3%;
+    }
+}
